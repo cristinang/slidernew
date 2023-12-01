@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Document</title>
+
+	<link rel="icon" href="img/icono.jpg">
+
+	<!--=====================================
+	CSS
+	======================================-->
+
+	<!-- fontawesome botonera laterales -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- jdSlider -->
+	<link rel="stylesheet" href="css/plugins/jdSlider.css">
+
+	<!-- Estilo personalizado -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--=====================================
+	JS
+	======================================-->	
+
+	<!-- jQuery library (moverse) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<!-- jdSlider -->
+	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
+	<script src="js/plugins/jdSlider.js"></script>
+
+	
+
+	
+
+</head>
+<body id="top">
+
+	<div id="imgFondo"></div>
+
+	<!--=====================================
+	SLIDESHOW
+	======================================-->	
+
+	<div class="container-fluid p-0">
+		
+		<section class="jd-slider slideshow">
+
+			<div class="slide-inner">
+
+				<ul class="slide-area">
+					<!-- <li> !!!!!!!!!CUANDO QUEREMOS AÑADIR UNA URL A NUESTRA IMAGEN!!!!!!!!!!
+						<div class="carrusel-item">
+							<a href="https://mdbootstrap.com/" target="_blank">
+								<img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="Primera diapositiva">
+							</a>
+						</div>
+					</li> -->
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Lorem ipsum.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<img src="img/slide/slide01.jpg">
+					</li>
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Lorem ipsum.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<img src="img/slide/slide02.jpg">
+					</li>
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Lorem ipsum.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<img src="img/slide/slide03.jpg">
+					</li>
+					<li>
+						<div class="slide-text d-none d-lg-block">
+							<h3>Lorem ipsum.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+						<img src="img/slide/slide04.jpg">
+					</li>
+				</ul>
+			</div>
+
+			<a class="prev" href="#">
+				<i class="fas fa-angle-left fa-2x text-white pl-3"></i>
+			</a>
+			<a class="next" href="#">
+				<i class="fas fa-angle-right fa-2x text-white pr-3"></i>
+			</a>
+
+			<div class="controller">
+
+				<a href="#" class="auto d-none">
+					
+					<i class="fas fa-play fa-xs"></i>
+					<i class="fas fa-pause fa-xs"></i>
+
+				</a>
+
+				<div class="indicate-area d-none d-lg-block"></div>
+			</div>
+
+		</section>
+
+	</div>
+
+	
+
+<script src="js/script.js"></script>
+</body>
+</html>
